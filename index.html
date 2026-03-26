@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logic Bit Labs | Software Development Company</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap');
+        body { font-family: 'Plus Jakarta Sans', sans-serif; scroll-behavior: smooth; }
+        .bg-andersen { background: linear-gradient(135deg, #0a0f1a 0%, #162033 100%); }
+        .text-accent { color: #2563eb; }
+        .whatsapp-btn {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: #25d366;
+            color: white;
+            padding: 15px 20px;
+            border-radius: 50px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            box-shadow: 0 10px 25px rgba(37, 211, 102, 0.4);
+            z-index: 1000;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .whatsapp-btn:hover { transform: translateY(-5px); }
+        .card-hover:hover { border-top: 4px solid #2563eb; transform: translateY(-5px); }
+    </style>
+</head>
+<body class="bg-white text-slate-900">
+
+    <a href="https://wa.me/94 76 687 7267" target="_blank" class="whatsapp-btn">
+        <i class="fab fa-whatsapp text-2xl"></i>
+        <span>WhatsApp Support</span>
+    </a>
+
+    <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100 py-4 px-8 flex justify-between items-center">
+        <div class="text-2xl font-extrabold tracking-tighter">
+            <span class="text-blue-600">LOGIC BIT</span> LABS
+        </div>
+        <div class="hidden lg:flex space-x-10 font-semibold text-sm">
+            <a href="#services" class="hover:text-blue-600">Services</a>
+            <a href="#industries" class="hover:text-blue-600">Industries</a>
+            <a href="#projects" class="hover:text-blue-600">Case Studies</a>
+            <a href="#contact" class="hover:text-blue-600">Contact Us</a>
+        </div>
+        <a href="#contact" class="bg-blue-600 text-white px-6 py-2 rounded font-bold text-sm hover:bg-blue-700">REQUEST CONSULTATION</a>
+    </nav>
+
+    <section class="bg-andersen text-white py-32 px-8">
+        <div class="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
+            <div>
+                <h1 class="text-5xl lg:text-7xl font-extrabold leading-tight mb-8">
+                    Fostering <span class="text-blue-500">Innovation</span> & Creativity
+                </h1>
+                <p class="text-xl text-slate-400 mb-10 leading-relaxed">
+                    Logic Bit Labs is a premium software development company. We build custom solutions that help enterprises scale through cutting-edge technology.
+                </p>
+                <div class="flex gap-4">
+                    <button class="bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded font-bold transition">Discuss Your Project</button>
+                    <button class="border border-slate-600 hover:bg-white hover:text-black px-8 py-4 rounded font-bold transition">Our Portfolio</button>
+                </div>
+            </div>
+            <div class="hidden lg:block">
+                <div class="relative p-10 border border-slate-700 rounded-3xl">
+                    <div class="absolute -top-4 -left-4 bg-blue-600 w-20 h-20 rounded-full opacity-20 blur-xl"></div>
+                    <p class="text-slate-500 text-sm mb-4 uppercase tracking-widest">Global Partner</p>
+                    <h3 class="text-2xl font-bold italic">"Delivering complex IT initiatives with precision and speed."</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="py-12 border-b border-gray-100 px-8">
+        <div class="max-w-6xl mx-auto flex flex-wrap justify-between items-center opacity-40 grayscale gap-8">
+            <span class="text-2xl font-bold">SIEMENS</span>
+            <span class="text-2xl font-bold">MERCEDES</span>
+            <span class="text-2xl font-bold">S&P GLOBAL</span>
+            <span class="text-2xl font-bold">SAMSUNG</span>
+        </div>
+    </div>
+
+    <section id="services" class="py-24 px-8 max-w-7xl mx-auto">
+        <div class="flex justify-between items-end mb-16">
+            <div>
+                <h2 class="text-4xl font-bold mb-4">Our Core Capabilities</h2>
+                <div class="w-24 h-1 bg-blue-600"></div>
+            </div>
+            <p class="hidden md:block text-slate-500 max-w-xs text-right text-sm">Top-ranked software experts using the best tools to engineer advanced software.</p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="p-10 bg-white border border-gray-100 shadow-sm rounded-xl card-hover transition-all">
+                <i class="fas fa-layer-group text-3xl text-blue-600 mb-6"></i>
+                <h3 class="text-xl font-bold mb-4">Custom Software</h3>
+                <p class="text-slate-500 mb-6">End-to-end development of complex systems tailored to your business needs.</p>
+                <a href="#" class="text-blue-600 font-bold">Learn More →</a>
+            </div>
+            <div class="p-10 bg-white border border-gray-100 shadow-sm rounded-xl card-hover transition-all">
+                <i class="fas fa-mobile-screen text-3xl text-blue-600 mb-6"></i>
+                <h3 class="text-xl font-bold mb-4">Mobile Development</h3>
+                <p class="text-slate-500 mb-6">Native and cross-platform mobile apps with exceptional user experiences.</p>
+                <a href="#" class="text-blue-600 font-bold">Learn More →</a>
+            </div>
+            <div class="p-10 bg-white border border-gray-100 shadow-sm rounded-xl card-hover transition-all">
+                <i class="fas fa-cloud-bolt text-3xl text-blue-600 mb-6"></i>
+                <h3 class="text-xl font-bold mb-4">Cloud & DevOps</h3>
+                <p class="text-slate-500 mb-6">Secure cloud infrastructure and CI/CD pipelines for faster deployment.</p>
+                <a href="#" class="text-blue-600 font-bold">Learn More →</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="industries" class="bg-slate-50 py-24 px-8">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-center text-3xl font-bold mb-16">Industries We Serve</h2>
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white p-8 text-center font-bold shadow-sm hover:shadow-md transition cursor-pointer">Fintech</div>
+                <div class="bg-white p-8 text-center font-bold shadow-sm hover:shadow-md transition cursor-pointer">Healthcare</div>
+                <div class="bg-white p-8 text-center font-bold shadow-sm hover:shadow-md transition cursor-pointer">Logistics</div>
+                <div class="bg-white p-8 text-center font-bold shadow-sm hover:shadow-md transition cursor-pointer">Retail</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 px-8">
+        <div class="max-w-4xl mx-auto bg-white border border-gray-100 shadow-2xl rounded-3xl overflow-hidden grid md:grid-cols-5">
+            <div class="md:col-span-2 bg-andersen p-12 text-white">
+                <h3 class="text-3xl font-bold mb-6">Ready to talk?</h3>
+                <p class="text-slate-400 mb-8">Tell us about your project and we will contact you within 24 hours.</p>
+                <div class="space-y-4">
+                    <p><i class="fas fa-envelope mr-3 text-blue-500"></i> info.logicbitlabs@com</p>
+                    <p><i class="fas fa-phone mr-3 text-blue-500"></i> +94 71 214 3954,070 586 8967,70 213 6133</p>
+                </div>
+            </div>
+            <div class="md:col-span-3 p-12">
+                <form action="#" class="space-y-6">
+                    <input type="text" placeholder="Full Name" class="w-full border-b border-gray-300 py-3 outline-none focus:border-blue-600 transition">
+                    <input type="email" placeholder="Email Address" class="w-full border-b border-gray-300 py-3 outline-none focus:border-blue-600 transition">
+                    <textarea placeholder="Message" rows="4" class="w-full border-b border-gray-300 py-3 outline-none focus:border-blue-600 transition"></textarea>
+                    <button class="bg-blue-600 text-white w-full py-4 rounded-xl font-bold hover:bg-blue-700 transition">SEND MESSAGE</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 text-slate-500 py-16 px-8">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-4 gap-12">
+            <div>
+                <div class="text-xl font-bold text-white mb-6 uppercase tracking-widest">Logic Bit Labs</div>
+                <p class="text-sm">World-class software development partner for digital transformation.</p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-6">Services</h4>
+                <ul class="space-y-3 text-sm">
+                    <li>Web Apps</li>
+                    <li>Mobile Apps</li>
+                    <li>Quality Assurance</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-6">Company</h4>
+                <ul class="space-y-3 text-sm">
+                    <li>About</li>
+                    <li>Case Studies</li>
+                    <li>Careers</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-6">Follow Us</h4>
+                <div class="flex space-x-4 text-xl">
+                    <i class="fab fa-linkedin hover:text-white cursor-pointer transition"></i>
+                    <i class="fab fa-twitter hover:text-white cursor-pointer transition"></i>
+                    <i class="fab fa-github hover:text-white cursor-pointer transition"></i>
+                </div>
+            </div>
+        </div>
+        <div class="max-w-6xl mx-auto mt-16 pt-8 border-t border-slate-800 text-center text-xs">
+            © 2026 Logic Bit Labs. All rights reserved. | Privacy Policy
+        </div>
+    </footer>
+
+</body>
+</html>
